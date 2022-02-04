@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>DigitalLibrary</title>
+        <vendor>M_Sheikhan</vendor>
+        <homepage href=""/>
+        <description>DigitalLibrary</description>
+        <description kind="short">DigitalLibrary</description>
+
+
+    </information>
+
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="DigitalLibrary.jar" main="true"/>
+
+
+    <jar href="lib/mysql-connector-java-5.1.6-bin.jar"/>
+<jar href="lib/pdfbox-app-1.3.1.jar"/>
+</resources>
+    <application-desc main-class="digitallibrary.presentation.swing.MainApp">
+
+    </application-desc>
+</jnlp>
